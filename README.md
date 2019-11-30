@@ -101,12 +101,12 @@ Python virtual environment manager (virtualenv)
 1. Database configuration related environment variables
 2. Python virtual environment manager - use 'virtualenv' rather than 'venv' so that required virtual environment activation files are available
 
+- Create a non-privileged user to run the web application
+- Configure Apache to work with mod_wsgi per the Flask documentation
 - Create a 'wsgi' file to allow Apache to start the web application per the Flask documentation
 - Add database related configuration to the python environment via the 'wsgi' file
 - Change database username in 'app.py' to match 'catalog' user
 - Change 'client_secret.json' path references to absolute
-
-
 
 ## External References:
 
